@@ -1,0 +1,236 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Fauna+One&family=Gabriela&family=Glegoo:wght@400;700&family=IM+Fell+English&family=Inconsolata:wght@200&family=Ultra&display=swap');
+
+
+
+:root {
+    --cor0: #ffffff;
+    --cor1: #1C3014;
+    --cor2: #6C1B08;
+    --cor3: #0A112B;
+    --cor4: #734428;
+    --cor5: #D6DCDA;
+    --cor99: #000000;
+
+    --font01: 'DM Serif Display', serif;
+    --font02: 'Fauna One', serif;
+    --font03: 'Gabriela', serif;
+    --font04: 'Glegoo', serif;
+    --font05: 'IM Fell English', serif;
+    --font06: 'Inconsolata', monospace;
+    --font07: 'Ultra', serif;
+
+    background-size: contain;
+    background-attachment: fixed;
+    margin-top: 0;
+}
+
+/*  ================================================================
+    ========================== HEADER ===========================
+    ================================================================ */
+
+a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.barraNav {
+    /* position: sticky; */
+    /* top: 0; */
+    display: flex;
+    overflow: auto;
+    height: 80%;
+    padding: 0px;
+    font-family: var(--font05);
+    font-size: 20px;
+}
+
+.navegacao {
+    width: 100%;
+    /* border: 4px solid black; */
+}
+
+.navbar {
+    /* border: 1px solid red; */
+    margin-right: 0;
+}
+
+/*  ================================================================
+    ============================ BODY ==============================
+    ================================================================ */
+
+/* ======================== SECTION ======================== */
+section {
+    /* border: 1px solid black; */
+    margin: 40px 6px 6px 6px;
+    position: static;
+    overflow: hidden;
+    padding: 10px;
+    box-shadow: 1px 1px 7px black;
+    border-radius: 0.5%;
+}
+
+.paginaInicial {
+    height: 87vh;
+}
+
+#hdiv>a>.hdiv2 {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hdiv>a {
+    text-decoration: none;
+}
+
+/* ============= HOME SECTION ============= */
+#home {
+    background-image: url("../images/fundo.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+#home>h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+#home>#hdiv>a>.hdiv22 {
+    /* border: 1px solid black; */
+    background-image: linear-gradient(var(--cor3), rgb(11, 131, 11));
+    color: var(--cor5);
+    overflow: hidden;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.449);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    min-width: 230px;
+    min-height: 90px;
+    font-family: var(--font05);
+}
+
+#home>#hdiv>a>.hdiv2 {
+    /* border: 1px solid black; */
+    background-image: linear-gradient(var(--cor1), var(--cor5));
+    color: var(--cor5);
+    overflow: hidden;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.449);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    min-width: 230px;
+    min-height: 90px;
+    font-family: var(--font05);
+}
+
+#home>#hdiv>a>.hdiv22>h4 {
+    font-size: 25px;
+}
+
+#home>#hdiv>a>.hdiv2>h4 {
+    font-size: 25px;
+}
+
+#home>#hdiv>a>.hdiv22:hover {
+    cursor: pointer;
+    transition: 1s;
+    background-image: radial-gradient(rgba(0, 102, 255, 0.668), rgb(212, 255, 0));
+    color: var(--cor1);
+}
+
+#home>#hdiv>a>.hdiv2:hover {
+    cursor: pointer;
+    transition: 1s;
+    background-image: radial-gradient(green, rgba(0, 128, 0, 0.649));
+    color: var(--cor1);
+}
+
+#home>#hdiv {
+    /* border: 1px solid black; */
+    margin-top: 5px;
+    text-align: center;
+}
+
+#home>div>h3 {
+    width: auto;
+    text-align: center;
+    margin: 50px;
+    font-size: 50px;
+    font-family: var(--font03);
+    font-weight: bolder;
+    color: var(--cor1);
+    width: auto;
+}
+
+/* ============= OTHERS SECTION ============= */
+
+/*  ================================================================
+    ============================ FOOTER ============================
+    ================================================================ */
+
+
+/* ============================== MEDIA ============================== */
+@media screen and (max-width: 699px) {
+
+    /*  ====================================================
+        ====================== HEADER MEDIA=====================
+        ======================================================== */
+
+    .barraNav {
+        font-size: 14px;
+    }
+}
+    /* ============================== MEDIA ============================== */
+@media screen and (max-width: 576px) {
+
+        /*  ====================================================
+    ====================== HEADER MEDIA=====================
+    ======================================================== */
+
+        /*  ====================================================
+    ======================= BODY MEDIA =====================
+    ======================================================== */
+        section {
+            /* border: 1px solid black; */
+            margin: 40px 6px 6px 6px;
+            position: static;
+            overflow: hidden;
+            padding: 10px;
+        }
+
+        #home>#hdiv {
+            /* border: 1px solid black; */
+            margin-top: 1px;
+            text-align: center;
+        }
+
+        #home>#hdiv>a>.hdiv2 {
+            /* border: 1px solid black; */
+            margin: 7PX;
+        }
+
+        #home>div>h3 {
+            margin-bottom: 1px;
+            font-size: 25px;
+            margin: 15px;
+        }
+        /* #home>div>h3 {
+            width: auto;
+            text-align: center;
+            margin: 50px;
+            font-size: 50px;
+            font-family: var(--font03);
+            font-weight: bolder;
+            color: var(--cor1);
+            width: auto;
+        } */
+
+        /*  ====================================================
+    ====================== FOOTER MEDIA ====================
+    ======================================================== */
+
+    }
