@@ -62,112 +62,112 @@ function apostarCopaDoMundo() {
     -------------------- <br>
     Grupo A <br>
     -------------------- <br>
-    Catar ${plac[0]} X ${plac[1]} Equador <br> 
-    Senegal ${plac[2]} X ${plac[3]} Holanda <br>
+    Al Ahly ${plac[0]} X ${plac[1]} Inter Miami <br> 
+    Palmeiras ${plac[2]} X ${plac[3]} Porto <br>
 
-    Catar ${plac[4]} X ${plac[5]} Senegal <br>
-    Holanda ${plac[6]} X ${plac[7]} Equador <br>
+    Palmeiras ${plac[4]} X ${plac[5]} Al Ahly <br>
+    Inter Miami ${plac[6]} X ${plac[7]} Porto <br>
 
-    Holanda ${plac[8]} X ${plac[9]} Catar <br>
-    Equador ${plac[10]} X ${plac[11]} Senegal <br>
+    Inter Miami ${plac[8]} X ${plac[9]} Palmeiras <br>
+    Porto ${plac[10]} X ${plac[11]} Al Ahly <br>
     <br>
 
 
     -------------------- <br>
     Grupo B <br>
     -------------------- <br>
-    Inglaterra ${plac[12]} X ${plac[13]} Irã <br> 
-    EUA ${plac[14]} X ${plac[15]} Gales <br>
+    PSG ${plac[12]} X ${plac[13]} Atlético de Madrid <br> 
+    Botafogo ${plac[14]} X ${plac[15]} Seattle Sounders <br>
 
-    Gales ${plac[16]} X ${plac[17]} Irã <br>
-    Inglaterra ${plac[18]} X ${plac[19]} EUA <br>
+    Seattle Sounders ${plac[16]} X ${plac[17]} Atlético de Madrid <br>
+    PSG ${plac[18]} X ${plac[19]} Botafogo <br>
 
-    Irã ${plac[20]} X ${plac[21]} EUA <br>
-    Gales ${plac[22]} X ${plac[23]} Inglaterra <br>
+    Seattle Sounders ${plac[20]} X ${plac[21]} PSG <br>
+    Atlético de Madrid ${plac[22]} X ${plac[23]} Botafogo <br>
     <br>
 
 
     -------------------- <br>
     Grupo C <br>
     -------------------- <br>
-    Argentina ${plac[24]} X ${plac[25]} Arábia Saudita <br> 
-    México ${plac[26]} X ${plac[27]} Polônia <br>
+    Bayern de Munique ${plac[24]} X ${plac[25]} Auckland City <br> 
+    Boca Juniors ${plac[26]} X ${plac[27]} Benfica <br>
 
-    Polônia ${plac[28]} X ${plac[29]} Arábia Saudita <br>
-    Argentina ${plac[30]} X ${plac[31]} México <br>
+    Benfica ${plac[28]} X ${plac[29]} Auckland City <br>
+    Bayern de Munique ${plac[30]} X ${plac[31]} Boca Juniors <br>
 
-    Polônia ${plac[32]} X ${plac[33]} Argentina <br>
-    Arábia Saudita ${plac[34]} X ${plac[35]} México <br>
+    Benfica ${plac[32]} X ${plac[33]} Bayern de Munique <br>
+    Auckland City ${plac[34]} X ${plac[35]} Boca Juniors <br>
     <br>
 
 
     -------------------- <br>
     Grupo D <br>
     -------------------- <br>
-    Dinamarca ${plac[36]} X ${plac[37]} Tunísia <br> 
-    França ${plac[38]} X ${plac[39]} Austrália <br>
+    Chelsea ${plac[36]} X ${plac[37]} Los Angeles FC <br> 
+    Flamengo ${plac[38]} X ${plac[39]} Espérance <br>
 
-    Tunísia ${plac[40]} X ${plac[41]} Austrália <br>
-    França ${plac[42]} X ${plac[43]} Dinamarca <br>
+    Flamengo ${plac[40]} X ${plac[41]} Chelsea <br>
+    Los Angeles FC ${plac[42]} X ${plac[43]} Espérance <br>
 
-    Tunísia ${plac[44]} X ${plac[45]} França <br>
-    Austrália ${plac[46]} X ${plac[47]} Dinamarca <br>
+    Espérance ${plac[44]} X ${plac[45]} Chelsea <br>
+    Los Angeles FC ${plac[46]} X ${plac[47]} Flamengo <br>
     <br>
 
 
     -------------------- <br>
     Grupo E <br>
     -------------------- <br>
-    Alemanha ${plac[48]} X ${plac[49]} Japão <br> 
-    Espanha ${plac[50]} X ${plac[51]} Costa Rica <br>
+    River Plate ${plac[48]} X ${plac[49]} Urawa Reds <br> 
+    Monterrey ${plac[50]} X ${plac[51]} Inter de Milão <br>
 
-    Japão ${plac[52]} X ${plac[53]} Costa Rica <br>
-    Espanha ${plac[54]} X ${plac[55]} Alemanha <br>
+    Inter de Milão ${plac[52]} X ${plac[53]} Urawa Reds <br>
+    River Plate ${plac[54]} X ${plac[55]} Monterrey <br>
 
-    Japão ${plac[56]} X ${plac[57]} Espanha <br>
-    Costa Rica ${plac[58]} X ${plac[59]} Alemanha <br>
+    Inter de Milão ${plac[56]} X ${plac[57]} River Plate <br>
+    Urawa Reds ${plac[58]} X ${plac[59]} Monterrey <br>
     <br>
 
 
     -------------------- <br>
     Grupo F <br>
     -------------------- <br>
-    Marrocos ${plac[60]} X ${plac[61]} Croácia <br> 
-    Bélgica ${plac[62]} X ${plac[63]} Canadá <br>
+    Fluminense ${plac[60]} X ${plac[61]} Borussia Dortmund <br> 
+    Ulsan HD ${plac[62]} X ${plac[63]} Mamelodi Sundowns <br>
 
-    Bélgica ${plac[64]} X ${plac[65]} Marrocos <br>
-    Croácia ${plac[66]} X ${plac[67]} Canadá <br>
+    Mamelodi Sundowns ${plac[64]} X ${plac[65]} Borussia Dortmund <br>
+    Fluminense ${plac[66]} X ${plac[67]} Ulsan HD <br>
 
-    Croácia ${plac[68]} X ${plac[69]} Bélgica <br>
-    Canadá ${plac[70]} X ${plac[71]} Marrocos <br>
+    Mamelodi Sundowns ${plac[68]} X ${plac[69]} Fluminense <br>
+    Borussia Dortmund ${plac[70]} X ${plac[71]} Ulsan HD <br>
     <br>
 
 
     -------------------- <br>
     Grupo G <br>
     -------------------- <br>
-    Suíça ${plac[72]} X ${plac[73]} Camarões <br> 
-    Brasil ${plac[74]} X ${plac[75]} Sérvia <br>
+    Manchester City ${plac[72]} X ${plac[73]} Wydad Casablanca <br> 
+    Al-Ain ${plac[74]} X ${plac[75]} Juventus <br>
 
-    Camarões ${plac[76]} X ${plac[77]} Sérvia <br>
-    Brasil ${plac[78]} X ${plac[79]} Suíça <br>
+    Juventus ${plac[76]} X ${plac[77]} Wydad Casablanca <br>
+    Manchester City ${plac[78]} X ${plac[79]} Al-Ain <br>
 
-    Camarões ${plac[80]} X ${plac[81]} Brasil <br>
-    Sérvia ${plac[82]} X ${plac[83]} Suíça <br>
+    Juventus ${plac[80]} X ${plac[81]} Manchester City <br>
+    Wydad Casablanca ${plac[82]} X ${plac[83]} Al-Ain <br>
     <br>
 
 
     -------------------- <br>
     Grupo H <br>
     -------------------- <br>
-    Uruguai ${plac[84]} X ${plac[85]} Coreia do Sul <br> 
-    Portugal ${plac[86]} X ${plac[87]} Gana <br>
+    Real Madrid ${plac[84]} X ${plac[85]} Al-Hilal <br> 
+    Pachuca ${plac[86]} X ${plac[87]} RB Salzburg <br>
 
-    Coreia do Sul ${plac[88]} X ${plac[89]} Gana <br>
-    Portugal ${plac[90]} X ${plac[91]} Uruguai <br>
+    Real Madrid ${plac[88]} X ${plac[89]} Pachuca <br>
+    RB Salzburg ${plac[90]} X ${plac[91]} Al-Hilal <br>
 
-    Coreia do Sul ${plac[92]} X ${plac[93]} Portugal <br>
-    Gana ${plac[94]} X ${plac[95]} Uruguai <br>
+    RB Salzburg ${plac[92]} X ${plac[93]} Real Madrid <br>
+    Al-Hilal ${plac[94]} X ${plac[95]} Pachuca <br>
     <br><br>
 
     1º Campeão: ${campeao1} <br>
@@ -235,16 +235,16 @@ function whatsapp() {
   jogadorArt1 = artilheiro[0].value
   jogadorArt2 = artilheiro[1].value
 
-  alert("NÃO SE ESQUECA DE FAZER O PIX: (19)992481225 \nValor: R$ 10,00")
+  alert("NÃO SE ESQUECA DE FAZER O PIX: (19)992481225 \nValor: R$ 20,00")
 
   let text = `APOSTA *FUTBR* %0ACOPA DO MUNDO CATAR-2022%0A%0A-------------------- %0AGrupo A%0A-------------------- %0ACatar ${plac[0]} X ${plac[1]} Equador %0ASenegal ${plac[2]} X ${plac[3]} Holanda %0ACatar ${plac[4]} X ${plac[5]} Senegal %0AHolanda ${plac[6]} X ${plac[7]} Equador %0AHolanda ${plac[8]} X ${plac[9]} Catar%0AEquador ${plac[10]} X ${plac[11]} Senegal%0A%0A-------------------- %0AGrupo B%0A-------------------- %0AInglaterra ${plac[12]} X ${plac[13]} Irã%0AEUA ${plac[14]} X ${plac[15]} Gales %0AGales ${plac[16]} X ${plac[17]} Irã %0AInglaterra ${plac[18]} X ${plac[19]} EUA %0AIrã ${plac[20]} X ${plac[21]} EUA %0AGales ${plac[22]} X ${plac[23]} Inglaterra%0A%0A-------------------- %0AGrupo C%0A-------------------- %0AArgentina ${plac[24]} X ${plac[25]} Arábia Saudita%0AMéxico ${plac[26]} X ${plac[27]} Polônia %0APolônia ${plac[28]} X ${plac[29]} Arábia Saudita%0AArgentina ${plac[30]} X ${plac[31]} México %0APolônia ${plac[32]} X ${plac[33]} Argentina%0AArábia Saudita ${plac[34]} X ${plac[35]} México%0A%0A-------------------- %0AGrupo D%0A-------------------- %0ADinamarca ${plac[36]} X ${plac[37]} Tunísia%0AFrança ${plac[38]} X ${plac[39]} Austrália%0ATunísia ${plac[40]} X ${plac[41]} Austrália%0AFrança ${plac[42]} X ${plac[43]} Dinamarca %0ATunísia ${plac[44]} X ${plac[45]} França %0AAustrália ${plac[46]} X ${plac[47]} Dinamarca %0A%0A-------------------- %0AGrupo E %0A-------------------- %0AAlemanha ${plac[48]} X ${plac[49]} Japão %0AEspanha ${plac[50]} X ${plac[51]} Costa Rica %0AJapão ${plac[52]} X ${plac[53]} Costa Rica %0AEspanha ${plac[54]} X ${plac[55]} Alemanha %0AJapão ${plac[56]} X ${plac[57]} Espanha %0ACosta Rica ${plac[58]} X ${plac[59]} Alemanha %0A%0A-------------------- %0AGrupo F %0A-------------------- %0AMarrocos ${plac[60]} X ${plac[61]} Croácia %0ABélgica ${plac[62]} X ${plac[63]} Canadá %0ABélgica ${plac[64]} X ${plac[65]} Marrocos %0ACroácia ${plac[66]} X ${plac[67]} Canadá %0ACroácia ${plac[68]} X ${plac[69]} Bélgica %0ACanadá ${plac[70]} X ${plac[71]} Marrocos %0A%0A-------------------- %0AGrupo G %0A-------------------- %0ASuíça ${plac[72]} X ${plac[73]} Camarões %0ABrasil ${plac[74]} X ${plac[75]} Sérvia %0ACamarões ${plac[76]} X ${plac[77]} Sérvia %0ABrasil ${plac[78]} X ${plac[79]} Suíça %0ACamarões ${plac[80]} X ${plac[81]} Brasil %0ASérvia ${plac[82]} X ${plac[83]} Suíça %0A%0A-------------------- %0AGrupo H %0A-------------------- %0AUruguai ${plac[84]} X ${plac[85]} Coreia do Sul %0A`
   let text2 = `Portugal ${plac[86]} X ${plac[87]} Gana %0ACoreia do Sul ${plac[88]} X ${plac[89]} Gana %0APortugal ${plac[90]} X ${plac[91]} Uruguai %0ACoreia do Sul ${plac[92]} X ${plac[93]} Portugal %0AGana ${plac[94]} X ${plac[95]} Uruguai %0A%0A*1º Campeão:* ${campeao1} %0A*2º Campeão:* ${campeao2} %0A%0A*1º Artilheiro:* ${jogadorArt1}%0A*2º Artilheiro:* ${jogadorArt2}%0A%0A%0APix R$10: 19992481225`
 
   window.open(`https://wa.me/5519992481225?text=${text}${text2}`)
-  paginaCopaDoMundo()
+  paginaMundialdeClubes()
 }
 
-function paginaCopaDoMundo() {
-  $(location).attr('href', '../html/copaMundo.html')
+function paginaMundialdeClubes() {
+  $(location).attr('href', '../html/mundialClubes2025.html')
 }
 
