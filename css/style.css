@@ -6,7 +6,7 @@
 
 :root {
     --cor0: #ffffff;
-    --cor1: #1C3014;
+    --cor1: #500303;
     --cor2: #6C1B08;
     --cor3: #0A112B;
     --cor4: #734428;
@@ -40,7 +40,7 @@ a {
     /* top: 0; */
     display: flex;
     overflow: auto;
-    height: 80%;
+    height: 90%;
     padding: 0px;
     font-family: var(--font05);
     font-size: 20px;
@@ -96,7 +96,7 @@ section {
 
 #home>h1 {
     text-align: center;
-    padding: 10px;
+    padding: 8px;
 }
 
 #home>#hdiv>a>.hdiv22 {
@@ -106,9 +106,9 @@ section {
     overflow: hidden;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.449);
     border-radius: 10px;
-    padding: 20px;
+    padding: 10px;
     margin: 15px;
-    min-width: 230px;
+    min-width: 150px;
     min-height: 90px;
     font-family: var(--font05);
 }
@@ -120,7 +120,7 @@ section {
     overflow: hidden;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.449);
     border-radius: 10px;
-    padding: 20px;
+    padding: 10px;
     margin: 15px;
     min-width: 230px;
     min-height: 90px;
@@ -128,24 +128,24 @@ section {
 }
 
 #home>#hdiv>a>.hdiv22>h4 {
-    font-size: 25px;
+    font-size: 10px;
 }
 
 #home>#hdiv>a>.hdiv2>h4 {
-    font-size: 25px;
+    font-size: 22px;
 }
 
 #home>#hdiv>a>.hdiv22:hover {
     cursor: pointer;
     transition: 1s;
-    background-image: radial-gradient(rgba(0, 102, 255, 0.668), rgb(212, 255, 0));
+    background-image: radial-gradient(rgba(0, 204, 255, 0.668), rgb(212, 255, 0));
     color: var(--cor1);
 }
 
 #home>#hdiv>a>.hdiv2:hover {
     cursor: pointer;
     transition: 1s;
-    background-image: radial-gradient(green, rgba(0, 128, 0, 0.649));
+    background-image: radial-gradient(rgba(144, 158, 237, 0.666), rgba(40, 104, 60, 0.649));
     color: var(--cor1);
 }
 
