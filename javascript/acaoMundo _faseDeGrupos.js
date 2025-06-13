@@ -31,6 +31,9 @@ function acionarModal() {
 
 function apostarCopaDoMundo() {
 
+  const elmnto = document.getElementById('helloa');
+  elmnto.innerHTML = ''
+
   let inpsB = document.getElementsByClassName('placar')
 
   let sou = document.querySelectorAll('button')[1]
@@ -58,6 +61,7 @@ function apostarCopaDoMundo() {
     jogadorArt1 = artilheiro[0].value
     jogadorArt2 = artilheiro[1].value
 
+    
     $('#helloa').append(`<p style="text-align: center;"> 
     -------------------- <br>
     Grupo A <br>
@@ -240,7 +244,7 @@ function whatsapp() {
   
   let text = `APOSTA *FUTBR* %0AMUNDIAL DE CLUBES DA FIFA-2025%0A%0A-------------------- %0A`
   let textAB = `Grupo A %0A-------------------- %0AAl Ahly ${plac[0]} X ${plac[1]} Inter Miami %0APalmeiras ${plac[2]} X ${plac[3]} Porto %0APalmeiras ${plac[4]} X ${plac[5]} Al Ahly %0AInter Miami ${plac[6]} X ${plac[7]} Porto %0AInter Miami ${plac[8]} X ${plac[9]} Palmeiras %0APorto ${plac[10]} X ${plac[11]} Al-Ahly%0A%0A-------------------- %0AGrupo B%0A-------------------- %0APSG ${plac[12]} X ${plac[13]} Atlético de Madrid %0ABotafogo ${plac[14]} X ${plac[15]} Seattle Sounders %0ASeattle Sounders ${plac[16]} X ${plac[17]} Atlético de Madrid %0APSG ${plac[18]} X ${plac[19]} Botafogo %0ASeattle Sounders ${plac[20]} X ${plac[21]} PSG %0AAtlético de Madrid ${plac[22]} X ${plac[23]} Botafogo%0A%0A-------------------- %0A`
-  let textCD = `Grupo C %0A-------------------- %0ABayern de Munique ${plac[24]} X ${plac[25]} Auckland City %0ABoca Jnuiors ${plac[26]} X ${plac[27]} Benfica %0ABenfica ${plac[28]} X ${plac[29]} Auckland City %0ABayern de Monique ${plac[30]} X ${plac[31]} Boca Juniorr %0Benfica ${plac[32]} X ${plac[33]} Bayern de Munique %0Auckland City ${plac[34]} X ${plac[35]} Boca Juniors %0A%0A--------------------%0AGrupo D%0A-------------------- %0AChelsea ${plac[36]} X ${plac[37]} Los Angeles FC %0AFlamengo ${plac[38]} X ${plac[39]} Espérance %0AFlamengo ${plac[40]} X ${plac[41]} Chelsea %0ALos Angeles FC ${plac[42]} X ${plac[43]} Espérance %0AEspérance ${plac[44]} X ${plac[45]} Chelsea %0ALos Angeles FC ${plac[46]} X ${plac[47]} Flamengo %0A%0A-------------------- %0A`
+  let textCD = `Grupo C %0A-------------------- %0ABayern de Munique ${plac[24]} X ${plac[25]} Auckland City %0ABoca Jnuiors ${plac[26]} X ${plac[27]} Benfica %0ABenfica ${plac[28]} X ${plac[29]} Auckland City %0ABayern de Monique ${plac[30]} X ${plac[31]} Boca Juniorr %0ABenfica ${plac[32]} X ${plac[33]} Bayern de Munique %0Auckland City ${plac[34]} X ${plac[35]} Boca Juniors %0A%0A--------------------%0AGrupo D%0A-------------------- %0AChelsea ${plac[36]} X ${plac[37]} Los Angeles FC %0AFlamengo ${plac[38]} X ${plac[39]} Espérance %0AFlamengo ${plac[40]} X ${plac[41]} Chelsea %0ALos Angeles FC ${plac[42]} X ${plac[43]} Espérance %0AEspérance ${plac[44]} X ${plac[45]} Chelsea %0ALos Angeles FC ${plac[46]} X ${plac[47]} Flamengo %0A%0A-------------------- %0A`
   let textEF = `Grupo E %0A-------------------- %0ARiver Plate ${plac[48]} X ${plac[49]} Urawa Reds %0AMonterrey ${plac[50]} X ${plac[51]} Inter de Milão %0AInter de Milão ${plac[52]} X ${plac[53]} Urawa Reds %0ARiver Plate ${plac[54]} X ${plac[55]} Monterrey %0AInter de Milão ${plac[56]} X ${plac[57]} River Plate %0AUrawa Reds ${plac[58]} X ${plac[59]} Monterrey %0A%0A-------------------- %0AGrupo F %0A-------------------- %0AFluminense ${plac[60]} X ${plac[61]} Borussia Dortmund %0AUlsan HD ${plac[62]} X ${plac[63]} Mamelodi Sundowns %0AMamelodi Sundowns ${plac[64]} X ${plac[65]} Borussia Dortmund %0AFluminense ${plac[66]} X ${plac[67]} Ulsan HD %0AMamelodi Sundowns ${plac[68]} X ${plac[69]} Fluminense %0ABorussia Dortmund ${plac[70]} X ${plac[71]} Ulsan HD %0A%0A-------------------- %0A`
   let textGH = `Grupo G %0A-------------------- %0AManchester City ${plac[72]} X ${plac[73]} Wydad Casablanca %0AAl-Ain ${plac[74]} X ${plac[75]} Juventus %0AJuventus ${plac[76]} X ${plac[77]} Wydad Casablanca %0AManchester City ${plac[78]} X ${plac[79]} Al-Ain %0AJuventus ${plac[80]} X ${plac[81]} Manchester City %0AWydad Casablanca ${plac[82]} X ${plac[83]} Al-Ain %0A%0A-------------------- %0AGrupo H %0A-------------------- %0AReal Madrid ${plac[84]} X ${plac[85]} Al-Hilal %0APachuca ${plac[86]} X ${plac[87]} RB Salzburg %0AReal Madrid ${plac[88]} X ${plac[89]} Pachuca %0ARB Salzburg ${plac[90]} X ${plac[91]} Al-Hilal %0ARB Salzburg ${plac[92]} X ${plac[93]} Real Madrid %0AAl-Hilal ${plac[94]} X ${plac[95]} Pachuca%0A%0A`
   let textI = `*1º Campeão:* ${campeao1} %0A*2º Campeão:* ${campeao2} %0A%0A*1º Artilheiro:* ${jogadorArt1}%0A*2º Artilheiro:* ${jogadorArt2}%0A%0A%0APix R$20,00: 19992481225`
