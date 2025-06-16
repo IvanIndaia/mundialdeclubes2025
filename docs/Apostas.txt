@@ -1556,21 +1556,189 @@ Al-Hilal 1 X 0 Pachuca
 1º Artilheiro: Fodem
 2º Artilheiro: Vinisius junior
 
-===========================================================================
 
----------------------------------------------------------------------------
-===========================================================================
 
----------------------------------------------------------------------------
 ===========================================================================
-
+Francesco
 ---------------------------------------------------------------------------
+
+-------------------- 
+Grupo A 
+-------------------- 
+Al Ahly NaN X NaN Inter Miami 
+Palmeiras 2 X 0 Porto 
+Palmeiras 1 X 0 Al Ahly 
+Inter Miami 1 X 0 Porto 
+Inter Miami 1 X 2 Palmeiras 
+Porto 1 X 0 Al Ahly
+
+-------------------- 
+Grupo B
+-------------------- 
+PSG 1 X 0 Atlético de Madrid 
+Botafogo 2 X 0 Seattle Sounders 
+Seattle Sounders 0 X 3 Atlético de Madrid 
+PSG 2 X 0 Botafogo 
+Seattle Sounders 0 X 4 PSG 
+Atlético de Madrid 1 X 0 Botafogo
+
+-------------------- 
+Grupo C 
+-------------------- 
+Bayern de Munique 4 X 0 Auckland City 
+Boca Juniors 0 X 2 Benfica 
+Benfica 2 X 0 Auckland City 
+Bayern de Munique 2 X 0 Boca Juniors 
+Benfica 1 X 2 Bayern de Munique 
+Auckland City 0 X 1 Boca Juniors 
+
+--------------------
+Grupo D
+-------------------- 
+Chelsea 2 X 0 Los Angeles FC 
+Flamengo 2 X 0 Espérance 
+Flamengo 0 X 2 Chelsea 
+Los Angeles FC 1 X 1 Espérance 
+Espérance 0 X 3 Chelsea 
+Los Angeles FC 1 X 2 Flamengo 
+
+-------------------- 
+Grupo E 
+-------------------- 
+River Plate 2 X 1 Urawa Reds 
+Monterrey 0 X 2 Inter de Milão 
+Inter de Milão 2 X 0 Urawa Reds 
+River Plate 1 X 0 Monterrey 
+Inter de Milão 2 X 1 River Plate 
+Urawa Reds 0 X 0 Monterrey 
+
+-------------------- 
+Grupo F 
+-------------------- 
+Fluminense 0 X 1 Borussia Dortmund 
+Ulsan HD 0 X 0 Mamelodi Sundowns 
+Mamelodi Sundowns 0 X 2 Borussia Dortmund 
+Fluminense 1 X 0 Ulsan HD 
+Mamelodi Sundowns 0 X 1 Fluminense 
+Borussia Dortmund 2 X 0 Ulsan HD 
+
+-------------------- 
+Grupo G 
+-------------------- 
+Manchester City 3 X 0 Wydad Casablanca 
+Al-Ain 0 X 2 Juventus 
+Juventus 2 X 0 Wydad Casablanca 
+Manchester City 3 X 0 Al-Ain 
+Juventus 1 X 2 Manchester City 
+Wydad Casablanca 0 X 2 Al-Ain 
+
+-------------------- 
+Grupo H 
+-------------------- 
+Real Madrid 3 X 1 Al-Hilal 
+Pachuca 0 X 2 RB Salzburg 
+Real Madrid 3 X 0 Pachuca 
+RB Salzburg 2 X 1 Al-Hilal 
+RB Salzburg 1 X 3 Real Madrid 
+Al-Hilal 2 X 0 Pachuca
+
+1º Campeão: Palmeiras 
+2º Campeão: Real Madrid 
+
+1º Artilheiro: Erling Haaland
+2º Artilheiro: Vinicius Júnior
+
+
+
 ===========================================================================
-
+Chicão
 ---------------------------------------------------------------------------
-===========================================================================
 
----------------------------------------------------------------------------
-===========================================================================
+-------------------- 
+Grupo A 
+-------------------- 
+Al Ahly NaN X NaN Inter Miami 
+Palmeiras 2 X 0 Porto 
+Palmeiras 1 X 0 Al Ahly 
+Inter Miami 1 X 0 Porto 
+Inter Miami 1 X 2 Palmeiras 
+Porto 0 X 1 Al Ahly
 
----------------------------------------------------------------------------
+-------------------- 
+Grupo B
+-------------------- 
+PSG 2 X 0 Atlético de Madrid 
+Botafogo 0 X 0 Seattle Sounders 
+Seattle Sounders 0 X 1 Atlético de Madrid 
+PSG 3 X 0 Botafogo 
+Seattle Sounders 0 X 4 PSG 
+Atlético de Madrid 1 X 1 Botafogo
+
+-------------------- 
+Grupo C 
+-------------------- 
+Bayern de Munique 2 X 0 Auckland City 
+Boca Juniors 1 X 1 Benfica 
+Benfica 1 X 1 Auckland City 
+Bayern de Munique 1 X 0 Boca Juniors 
+Benfica 0 X 1 Bayern de Munique 
+Auckland City 0 X 0 Boca Juniors 
+
+--------------------
+Grupo D
+-------------------- 
+Chelsea 3 X 0 Los Angeles FC 
+Flamengo 1 X 0 Espérance 
+Flamengo 1 X 3 Chelsea 
+Los Angeles FC 0 X 0 Espérance 
+Espérance 0 X 4 Chelsea 
+Los Angeles FC 1 X 1 Flamengo 
+
+-------------------- 
+Grupo E 
+-------------------- 
+River Plate 1 X 0 Urawa Reds 
+Monterrey 1 X 1 Inter de Milão 
+Inter de Milão 1 X 0 Urawa Reds 
+River Plate 1 X 1 Monterrey 
+Inter de Milão 1 X 1 River Plate 
+Urawa Reds 0 X 1 Monterrey 
+
+-------------------- 
+Grupo F 
+-------------------- 
+Fluminense 0 X 2 Borussia Dortmund 
+Ulsan HD 0 X 0 Mamelodi Sundowns 
+Mamelodi Sundowns 0 X 3 Borussia Dortmund 
+Fluminense 1 X 0 Ulsan HD 
+Mamelodi Sundowns 1 X 1 Fluminense 
+Borussia Dortmund 2 X 0 Ulsan HD 
+
+-------------------- 
+Grupo G 
+-------------------- 
+Manchester City 3 X 0 Wydad Casablanca 
+Al-Ain 1 X 1 Juventus 
+Juventus 2 X 0 Wydad Casablanca 
+Manchester City 2 X 1 Al-Ain 
+Juventus 1 X 1 Manchester City 
+Wydad Casablanca 0 X 1 Al-Ain 
+
+-------------------- 
+Grupo H 
+-------------------- 
+Real Madrid 3 X 0 Al-Hilal 
+Pachuca 1 X 1 RB Salzburg 
+Real Madrid 3 X 0 Pachuca 
+RB Salzburg 1 X 1 Al-Hilal 
+RB Salzburg 0 X 2 Real Madrid 
+Al-Hilal 2 X 0 Pachuca
+
+1º Campeão: Real Madrid 
+2º Campeão: PSG 
+
+1º Artilheiro: Erling Haaland
+2º Artilheiro: Vinicius Júnior
+
+
+
