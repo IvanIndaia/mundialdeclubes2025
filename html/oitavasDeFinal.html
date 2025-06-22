@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!--
+    keep-CopaDoMundo_00x
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundial de Clubes FIFA-2025</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style-Mundo.css">
+    <link rel="stylesheet" href="../css/style-Mundo-Queries.css">
+    <link rel="shortcut icon" href="../icon/favicon01.ico" type="image/x-icon">
+    <!-- NORMALIZE CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <!------------------------------------------------------
+                     UPDATE: 09/06/2025
+    -------------------------------------------------------->
+
+    <!-- ================================== HEADER ================================== -->
+    <div class="barraNav">''
+        <div class="navegacao bg-dark">
+            <nav class="navbar fixed-top navbar-expand-sm bg-dark navbar-dark">
+                <div class="photoPerfil bg-dark">
+                    <div id="img">
+                        <a href="../index.html"><img width="35px" src="../icon/favicon.ico"></a>
+                    </div>
+                </div>
+                <!-- <div class="navbar-brand"><img src="" alt=""> </div> -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="myNav" class="collapse navbar-collapse justify-content-end">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                        <li class="nav-item"><a onclick="popUP2()" class="nav-link" href="#">Copa do Brasil</a></li>
+                        <li class="nav-item"><a onclick="popUP2()" class="nav-link" href="#">Libertadores</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="copaMundo.html">Copa do Mundo</a></li> -->
+                        <li class="nav-item"><a onclick="popUP2()" class="nav-link" href="#">Sul-Americana</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- ================================== SECTION HOME ================================== -->
+    <section id="home">
+        <h1>MUNDIAL DE CLUBES DA FIFA-2025</h1>
+        <div class="border-none abas">
+            <ul class="nav nav-tabs justify-content-center">
+                <li class="nav-item"><a href="#apostar" class="nav-link active" data-toggle="tab">APOSTAR</a></li>
+                <li class="nav-item"><a href="#apostasValidas" class="nav-link" data-toggle="tab">APOSTAS VÁLIDAS</a>
+                </li>
+                <li class="nav-item text-dark"><a href="#classificacao" class="nav-link"
+                        data-toggle="tab">CLASSIFICAÇÃO</a></li>
+                <li class="nav-item"><a href="#regras" class="nav-link" data-toggle="tab">REGRAS</a></li>
+                <!-- <li class="nav-item"><a href="#outros" class="nav-link" data-toggle="tab">OUTROS</a></li> -->
+            </ul>
+
+            <div class="tab-content painelCopadoMundo">
+                <div id="apostar" class="tab-pane active">
+
+                    <!--========================
+                        COPA DO MUNDO
+                    =========================-->
+
+                    <!-- <div class="border-none abas2">
+                        <ul class="nav nav-tabs justify-content-center ocultarGrupos">
+                            <li class="nav-item"><a href="#grupoA" class="nav-link active" data-toggle="tab">Grupo A</a></li>
+                            <li class="nav-item"><a href="#grupoB" class="nav-link" data-toggle="tab">Grupo B</a></li>
+                            <li class="nav-item"><a href="#grupoC" class="nav-link" data-toggle="tab">Grupo C</a></li>
+                            <li class="nav-item"><a href="#grupoD" class="nav-link" data-toggle="tab">Grupo D</a></li>
+                            <li class="nav-item"><a href="#grupoE" class="nav-link" data-toggle="tab">Grupo E</a></li>
+                            <li class="nav-item"><a href="#grupoF" class="nav-link" data-toggle="tab">Grupo F</a></li>
+                            <li class="nav-item"><a href="#grupoG" class="nav-link" data-toggle="tab">Grupo G</a></li>
+                            <li class="nav-item"><a href="#grupoH" class="nav-link" data-toggle="tab">Grupo H</a></li>
+                        </ul> -->
+
+                    <div class="tab-content painelCopadoMundoGrups">
+                        <div id="oitavas" class="tab-pane active">
+                            <div>
+                                <!-----------------------------------
+                                ---------- Oitavas de Final ---------
+                                ------------------------------------->
+                                <h2>Oitavas de Final</h2>
+                            </div>
+                            <div class="grid">
+                                <div class="grup">
+                                    <h6 style="color: rgb(110, 97, 97);">Oitavas 1</h6>
+                                    <h6>SÁB 28/06/25 FILADÉLFIA 13:00</h6>
+                                    <div>
+                                        <p>Palmeiras</p>
+                                        <img class="logos" src="../images/mundo2/palmeiras.png" alt="">
+                                        <div class="x">
+                                            <input id="PAL-1" class="placar" type="tel">
+                                            <h3>X</h3>
+                                            <input id="PSG-1" class="placar" type="tel">
+                                        </div>
+                                        <img class="logos" src="../images/mundo2/psg.png" alt="">
+                                        <p>PSG</p>
+                                    </div>
+                                </div>
+                                <div class="grup">
+                                    <h6 style="color: rgb(110, 97, 97);">Oitavas 2</h6>
+                                    <h6>SÁB 28/06/25 CHARLOTTE 17:00</h6>
+                                    <div>
+                                        <p>Bayern de Munique</p>
+                                        <img class="logos" src="../images/mundo2/bayern.png" alt="">
+                                        <div class="x">
+                                            <input id="PAL-1" class="placar" type="tel">
+                                            <h3>X</h3>
+                                            <input id="POR-1" class="placar" type="tel">
+                                        </div>
+                                        <img class="logos" src="../images/mundo2/chelsea.png" alt="">
+                                        <p>Chelsea</p>
+                                    </div>
+                                </div>
+                                <div class="grup">
+                                    <h6 style="color: rgb(110, 97, 97);">Oitavas 3</h6>
+                                    <h6>SEG 30/06/25 CHARLOTTE 16:00</h6>
+                                    <div>
+                                        <p>River Plate</p>
+                                        <img class="logos" src="../images/mundo2/riverplate.png" alt="">
+                                        <div class="x">
+                                            <input id="PAL-2" class="placar" type="tel">
+                                            <h3>X</h3>
+                                            <input id="AHL-2" class="placar" type="tel">
+                                        </div>
+                                        <img class="logos" src="../images/mundo2/borussia.png" alt="">
+                                        <p>Borussia Dortmund</p>
+                                    </div>
+                                </div>
+                                <div class="grup">
+                                    <h6 style="color: rgb(110, 97, 97);">Oitavas 4</h6>
+                                    <h6>SEG 30/06/25 CAMPING WORLD STADIUM 22:00</h6>
+                                    <div>
+                                        <p>Juventus</p>
+                                        <img class="logos" src="../images/mundo2/juventus.png" alt="">
+                                        <div class="x">
+                                            <input id="JUV-2" class="placar" type="tel">
+                                            <h3>X</h3>
+                                            <input id="HIL-2" class="placar" type="tel">
+                                        </div>
+                                        <img class="logos" src="../images/mundo2/alhilal.png" alt="">
+                                        <p>Al-Hilal</p>
+                                    </div>
+                                </div>
+                                <div class="grup">
+                                    <h6 style="color: rgb(110, 97, 97);">Oitavas 5</h6>
+                                    <h6>DOM 29/06/25 ATLANTA 13:00</h6>                                    
+                                    <div>
+                                        <p>Inter Miami</p>
+                                        <img class="logos" src="../images/mundo2/intermiami.png" alt="">
+                                        <div class="x">
+                                            <input id="IMI-3" class="placar" type="tel">
+                                            <h3>X</h3>
+                                            <input id="PAL-3" class="placar" type="tel">
+                                        </div>
+                                        <img class="logos" src="../images/mundo2/botafogo.png" alt="">
+                                        <p>Botafogo</p>
+                                    </div>
+                                </div>
+                                <div class="grup">
+                                    <h6 style="color: rgb(110, 97, 97);">Oitavas 6</h6>
+                                    <h6>DOM 29/06/25 MIAMI 17:00</h6>
+                                    <div>
+                                        <p>Flamengo</p>
+                                        <img class="logos" src="../images/mundo2/flamengo.png" alt="">
+                                        <div class="x">
+                                            <input id="POR-3" class="placar" type="tel">
+                                            <h3>X</h3>
+                                            <input id="AHL-3" class="placar" type="tel">
+                                        </div>
+                                        <img class="logos" src="../images/mundo2/benfica.png" alt="">
+                                        <p>Benfica</p>
+                                    </div>
+                                </div>
+                                <div class="grup"><h6 style="color: rgb(110, 97, 97);">Oitavas 7</h6>
+                                    <h6>TER 01/07/25 ATLANTA 22:00</h6>
+                                    <div>
+                                        <p>Fluminense</p>
+                                        <img class="logos" src="../images/mundo2/fluminense.png" alt="">
+                                        <div class="x">
+                                            <input id="BAY-1" class="placar" type="tel">
+                                            <h3>X</h3>
+                                            <input id="AUC-1" class="placar" type="tel">
+                                        </div>
+                                        <img class="logos" src="../images/mundo2/interdemilao.png" alt="">
+                                        <p>Inter de Milão</p>
+                                    </div>
+                                </div>
+                                <div class="grup">
+                                    <h6 style="color: rgb(110, 97, 97);">Oitavas 8</h6>
+                                    <h6>TER 01/07/25 MIAMI 16:00</h6>
+                                    <div>
+                                        <p>Real Madrid</p>
+                                        <img class="logos" src="../images/mundo2/realmadrid.png" alt="">
+                                        <div class="x">
+                                            <input id="BOC-1" class="placar" type="tel">
+                                            <h3>X</h3>
+                                            <input id="BEN-1" class="placar" type="tel">
+                                        </div>
+                                        <img class="logos" src="../images/mundo2/city.png" alt="">
+                                        <p>Manchester City</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button onclick="acionarModal()" type="button" class="btn btn-success btnApostar"
+                            data-toggle="modal">
+                            Apostar
+                        </button>
+
+                        <div class="modal" tabindex="-1" role="dialog" id="meuModal">
+                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1>Sua aposta:</h1>
+                                    </div>
+                                    <div class="modal-body display-7" id="helloa">
+                                        <!-- <p style="text-align: center;">
+
+                                    </p> -->
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button onclick="whatsapp()" class="btn btn-primary">
+                                            Confirmar
+                                        </button>
+                                        <button onclick="paginaCopaDoMundo()" type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">
+                                            Cancelar
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <button onclick="vaiDarCerto()">
+                        Vai Rolar
+                    </button> -->
+                    </div>
+                    <div id="apostasValidas" class="tab-pane fade">
+                        <h1>Apostas Válidas</h1>
+                        <div class="allApostaJogador">
+
+                            <div class="apostaJogador">
+                                <img src="../images/apostas/IvanAlex.png" alt="">
+
+                            </div>
+                            <div class="apostaJogador">
+                                <img src="../images/apostas/Serginho.png" alt="">
+                            </div>
+
+                            <div class="apostaJogador">
+                                <img src="../images/apostas/Jean.png" alt="">
+                            </div>
+
+                            <div class="apostaJogador">
+                                <img src="../images/apostas/MacelioHenrique.png" alt="">
+                            </div>
+
+                            <div class="apostaJogador">
+                                <img src="../images/apostas/Macelio.png" alt="">
+                            </div>
+
+                            <div class="apostaJogador">
+                                <img src="../images/apostas/MateusAires.png" alt="">
+                            </div>
+
+                            <div class="apostaJogador">
+                                <img src="../images/apostas/Bruno.png" alt="">
+                            </div>
+
+                            <div class="apostaJogador">
+                                <img src="../images/apostas/Naldinho.png" alt="">
+                            </div>
+
+                            <div class="apostaJogador">
+                                <img src="../images/apostas/JulioSantos.png" alt="">
+                            </div>
+
+                            <div class="apostaJogador">
+                                <img src="../images/apostas/Joseir.png" alt="">
+                            </div>
+
+                            <div class="apostaJogador">
+                                <img src="../images/apostas/Juninho.png" alt="">
+                            </div>
+
+                            <div class="apostaJogador">
+                                <img src="../images/apostas/Ivani.png" alt="">
+                            </div>
+
+                            <div class="apostaJogador">
+                                <img src="../images/apostas/Manoel.png" alt="">
+                            </div>
+
+                            <div class="apostaJogador">
+                                <img src="../images/apostas/MateusHenrique.png" alt="">
+                            </div>
+
+                            <div class="apostaJogador">
+                                <img src="../images/apostas/Gabriel.png" alt="">
+                            </div>
+
+                            <div class="apostaJogador">
+                                <img src="../images/apostas/Marcel.png" alt="">
+                            </div>
+
+                            <div class="apostaJogador">
+                                <img src="../images/apostas/Luana.png" alt="">
+                            </div>
+
+                            <div class="apostaJogador">
+                                <img src="../images/apostas/JulioOliveira.png" alt="">
+                            </div>
+
+                            <div class="apostaJogador">
+                                <img src="../images/apostas/Miguel.png" alt="">
+                            </div>
+
+                            <div class="apostaJogador">
+                                <img src="../images/apostas/Francesco.png" alt="">
+                            </div>
+
+                            <div class="apostaJogador">
+                                <img src="../images/apostas/Chicao.png" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="classificacao" class="tab-pane fade">
+                        <h1>Classificação</h1>
+                        <div>
+                            <img src="../images/classifica/classifica.png" alt="">
+                        </div>
+                    </div>
+                    <div id="regras" class="tab-pane fade">
+                        <div id="conteudo">
+                            <h3>Regras do Bolão</h3><br>
+                            <ol id="listaMundo">
+                                <!-- <h4>Bolão do MUNDIAL DE CLUBES da FIFA-2025.</h4><br> -->
+                                <li>Torneio: MUNDIAL DE CLUBES nos EUA-2025</li>
+                                <li>O palpite será validado após a confirmação do pgto.</li>
+                                <li>O palpite de todos os jogos da primeira fase precisa ser preenchidos antes da
+                                    partida
+                                    começar 14/06 21h00.</li>
+                                <!-- <li><b>Você pode dar o palpite a qualquer momento, exceto nos jogos já iniciados.</b></li> -->
+                                <li>Cada fase deve ser colocado um palpite, caso contrário o placar será desconsiderado
+                                </li>
+                                <li>O Valor de cada aposta é de R$ 20,00 para o torneio até a final.</li>
+                                <li>O campeonato será de pontos corridos. Quem somar mais pontos será o Vencedor</li>
+                                <br>
+                                <li><b>Pontuação:</b>
+                                    <ul>
+                                        <li>Placar Exato: <b class="pontu">25 pontos</b></li>
+                                        <ul>
+                                            <li>
+                                                <u>Exemplo:</u> Você palpitou 0x0 e a partida termina em 0x0.
+                                            </li>
+                                            <li>
+                                                <u>Exemplo2:</u> Você palpitou 2x0 e a partida termina em 2x0.
+                                            </li>
+                                        </ul>
+                                        <br>
+                                        <li>Acertar o Vencedor e os gol(s) de um dos times: <b class="pontu">15
+                                                pontos</b>
+                                        </li>
+                                        <ul>
+                                            <li>
+                                                <u>Exemplo</u>: Você palpitou 3x0 e a partida termina em 1x0
+                                            </li>
+                                            <li>
+                                                <u>Exemplo2</u>: Você palpitou 4x2 e a partida termina em 4x1
+                                            </li>
+                                        </ul>
+                                        <br>
+                                        <li>Acertar o Vencedor/Empate E não acertar nenhum dos gol(s) dos 2 times: <b
+                                                class="pontu">10
+                                                pontos</b></li>
+                                        <ul>
+                                            <li>
+                                                <u>Exemplo</u>: Você palpitou 3x0 e a partida termina em 2x1
+                                            </li>
+                                            <li>
+                                                <u>Exemplo2</u>: Você palpitou 1x2 e a partida termina em 0x4
+                                            </li>
+                                            <li>
+                                                <u>Exemplo3</u>: Você palpitou 1x1 e a partida termina em 0x0
+                                            </li>
+                                        </ul>
+                                        <br>
+                                        <li>Acertar apenas o(s) gol(s) de um dos times: <b class="pontu">5 pontos</b>
+                                        </li>
+                                        <ul>
+                                            <li>
+                                                <u>Exemplo</u>: Você palpitou 0x0 e a partida termina em 4x0
+                                            </li>
+                                            <li>
+                                                <u>Exemplo2</u>: Você palpitou 0x1 e a partida termina em 2x1
+                                            </li>
+                                        </ul>
+                                        <br>
+                                        <li>Acertar o Campeão: <b class="pontu">80 pontos</b></li>
+                                        <li>Acertar o Artilheiro: <b class="pontu">50 pontos</b></li>
+                                        <!-- <ul>
+                                        <li>
+                                            <u>Exemplo</u>: Você palpitou Brasil e Argentina e a Copa foi vencida pelo
+                                            Brasil.
+                                        </li>
+                                    </ul> -->
+                                    </ul>
+                                </li>
+                                <br>
+                                <li><b>Premiação:</b>
+                                    <ul>
+                                        <li><b>1º</b> Colocado: <b>40%</b> do valor arrecadado</li>
+                                        <li><b>2º</b> Colocado: <b>30%</b> do valor arrecadado</li>
+                                        <li><b>3º</b> Colocado: <b>20%</b> do valor arrecadado</li>
+                                        <li><b>4º</b> Colocado: <b>10%</b> do valor arrecadado</li>
+                                    </ul>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- ================================== SECTION HOME ================================== -->
+
+    <script src="../javascript/acaoMundo _faseDeGrupos.js"></script>
+    <script src="../script.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
