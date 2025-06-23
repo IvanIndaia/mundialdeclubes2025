@@ -4,8 +4,6 @@ function acionarModal() {
   let inpsA = document.getElementsByClassName('placar')
   let inps = document.querySelectorAll('input')
 
-
-  
   let notAnumber = 0
 
   for (i = 0; i < inpsA.length; i++) {
@@ -18,12 +16,10 @@ function acionarModal() {
       }
     }
   }
-
   /*
   console.log(`Quantidade de Placar: ${inpsA.length}`)
   console.log(`Quantidade de Inputs: ${inps.length}`)
   */
-
   if (notAnumber === 0) {
     apostarCopaDoMundo()
   } else {
@@ -35,6 +31,9 @@ function acionarModal() {
 
 function apostarCopaDoMundo() {
 
+  const elmnto = document.getElementById('helloa');
+  elmnto.innerHTML = ''
+  
   let inpsB = document.getElementsByClassName('placar')
 
   let sou = document.querySelectorAll('button')[1]
