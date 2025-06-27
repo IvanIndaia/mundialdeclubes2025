@@ -127,7 +127,7 @@ function whatsapp() {
   alert("AINDA NÃO FINALIZOU.. \nA aposta só será validada quando a mensagem chegar no Whatsapp!!!")
 
   
-  let text = `${userName} - ${cellPhone} %0A%0AAPOSTA *FUTBR* %0AMUNDIAL DE CLUBES FIFA-2025%0A%0A--------------------------- %0AOitavas de Final%0A--------------------------- %0APalmeiras ${plac[0]} X ${plac[1]} Botafogo %0ABenfica ${plac[2]} X ${plac[3]} Chelsea %0AInter de Milão ${plac[4]} X ${plac[5]} Fluminense %0AManchester City ${plac[6]} X ${plac[7]} Al-Hilal %0APSG ${plac[8]} X ${plac[9]} Inter Miami %0AFlamengo ${plac[10]} X ${plac[11]} Bayern de Munique %0ABorussia Dortmund ${plac[12]} X ${plac[13]} Monterrey %0AReal Madrid ${plac[14]} X ${plac[15]} Juventusa%0A`
+  let text = `${userName} - ${cellPhone} %0A%0AAPOSTA *FUTBR* %0AMUNDIAL DE CLUBES FIFA-2025%0A%0A--------------------------- %0AOitavas de Final%0A--------------------------- %0APalmeiras ${plac[0]} X ${plac[1]} Botafogo %0ABenfica ${plac[2]} X ${plac[3]} Chelsea %0AInter de Milão ${plac[4]} X ${plac[5]} Fluminense %0AManchester City ${plac[6]} X ${plac[7]} Al-Hilal %0APSG ${plac[8]} X ${plac[9]} Inter Miami %0AFlamengo ${plac[10]} X ${plac[11]} Bayern de Munique %0ABorussia Dortmund ${plac[12]} X ${plac[13]} Monterrey %0AReal Madrid ${plac[14]} X ${plac[15]} Juventus%0A`
 
   window.open(`https://wa.me/5519992481225?text=${text}`)
   paginaCopaDoMundo()
