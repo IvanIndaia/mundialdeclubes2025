@@ -1,4 +1,3 @@
-
 function acionarModal() {
 
   let inpsA = document.getElementsByClassName('placar')
